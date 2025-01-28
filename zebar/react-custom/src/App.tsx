@@ -87,6 +87,7 @@ function App() {
   }
 
   const mediaTitle = output.media?.currentSession?.title;
+  const artist = output.media?.currentSession?.artist;
 
   return (
     <div className="app">
@@ -100,8 +101,8 @@ function App() {
                 <i className="nf nf-fa-music"/>
 
                 {
-                  mediaTitle.length > 30 ? mediaTitle.substring(0, 30) + "..." : media_title
-                } by {output.media?.currentSession?.artist}
+                  mediaTitle.length > 30 ? mediaTitle.substring(0, 30) + "..." : mediaTitle
+                }{artist && ` - ${artist}`}
             </div>
         )}
       </div>

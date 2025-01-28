@@ -1,0 +1,2 @@
+[2m2025-01-28T22:43:31.313683Z[0m [31mERROR[0m [2mglazewm[0m[2m:[0m window_rules[1]: missing field `commands` at line 140 column 5
+[2m2025-01-28T22:43:43.899527Z[0m [31mERROR[0m [2mglazewm[0m[2m:[0m window_rules[1]: missing field `match` at line 140 column 5
